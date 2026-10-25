@@ -1,0 +1,10 @@
+{
+  "namespace": "Smurfgames",
+  "name": "ModSync",
+  "version_number": "0.3.3",
+  "website_url": "https://github.com/smurfhub/valheim",
+  "description": "Validates client mods against server policy and offers consent-based Thunderstore mod synchronization.",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.2333"
+  ]
+}

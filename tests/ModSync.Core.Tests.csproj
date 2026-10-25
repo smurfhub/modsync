@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\ModPolicy.cs" Link="ModPolicy.cs" />
+    <Compile Include="..\Loc.cs" Link="Loc.cs" />
+    <Compile Include="..\Loc.External.cs" Link="Loc.External.cs" />
+    <Compile Include="..\ModPolicyBootstrap.cs" Link="ModPolicyBootstrap.cs" />
+    <Compile Include="..\InventoryPacketCodec.cs" Link="InventoryPacketCodec.cs" />
+    <Compile Include="..\ChallengeRegistry.cs" Link="ChallengeRegistry.cs" />
+    <Compile Include="..\ThunderstoreSyncPacketCodec.cs" Link="ThunderstoreSyncPacketCodec.cs" />
+    <Compile Include="..\ThunderstoreInstallPathResolver.cs" Link="ThunderstoreInstallPathResolver.cs" />
+    <Compile Include="..\ArchivePath.cs" Link="ArchivePath.cs" />
+    <Compile Include="Program.cs" />
+  </ItemGroup>
+</Project>

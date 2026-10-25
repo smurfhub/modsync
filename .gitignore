@@ -39,6 +39,11 @@ ScaffoldingReadMe.txt
 # dotenv environment variables file
 .env
 
+# Local development configuration
+/.vscode/
+/config/
+/dev.ps1
+
 # Others
 ~$*
 *~
